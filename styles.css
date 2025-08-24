@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  min-width: 320px;
+  padding: 10px;
+  background-color: bisque;
+}
+input {
+  width: 70%;
+  padding: 6px;
+}
+button {
+  margin-left: 6px;
+  padding: 6px 8px;
+}
+ul {
+  margin-top: 10px;
+  padding-left: 18px;
+}
+li {
+  margin: 6px 0;
+  word-break: break-all;
+}
+.controls {
+  margin-top: 10px;
+}
