@@ -207,4 +207,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("urlInput").addEventListener("keydown", (e) => {
     if (e.key === "Enter") addUrlFromInput();
   });
+
+  document.getElementById("nextBtn").addEventListener("keydown", (e) => {
+    if (e.key === "n") next();
+  });
 });

@@ -1,25 +1,43 @@
 body {
   font-family: Arial, sans-serif;
-  min-width: 320px;
+  max-height: 480px;
+  min-width: 340px;
+  box-sizing: border-box;
   padding: 10px;
+  margin: 0;
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
+
 input {
-  width: 70%;
+  width: calc(100% - 90px);
   padding: 6px;
+  box-sizing: border-box;
 }
+
 button {
   margin-left: 6px;
   padding: 6px 8px;
 }
+
 ul {
   margin-top: 10px;
   padding-left: 18px;
+  overflow: auto;
+  flex: 1 1 auto;
+  min-height: 0;
 }
+
 li {
   margin: 6px 0;
   word-break: break-all;
 }
+
 .controls {
   margin-top: 10px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 8px;
 }
