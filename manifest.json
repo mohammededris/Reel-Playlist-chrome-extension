@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Instagram Reels Viewer Playlist",
+  "name": "URl Playlist",
   "version": "1.0",
-  "description": "Open a tab and load Instagram Reels URLs sequentially from a simple popup queue.",
+  "description": "Extension to iterate through a list of URLs",
   "permissions": ["tabs", "storage"],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Reels Viewer"
+    "default_title": "URl Playlist"
   }
 }
