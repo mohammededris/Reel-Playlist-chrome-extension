@@ -4,8 +4,18 @@
   "version": "1.0",
   "description": "Extension to iterate through a list of URLs",
   "permissions": ["tabs", "storage"],
+  "icons": {
+    "16": "icons/URLz_128.png",
+    "48": "icons/URLz_128.png",
+    "128": "icons/URLz_128.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "URl Playlist"
+    "default_title": "URl Playlist",
+    "default_icon": {
+      "16": "icons/URLz_128.png",
+      "48": "icons/URLz_128.png",
+      "128": "icons/URLz_128.png"
+    }
   }
 }
